@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&family=Nunito+Sans:wght@200;300;400;600&family=Nunito:ital,wght@0,400;0,700;1,200&family=Poppins:wght@100;300;500&display=swap');
+
+:root {
+    --avocado-green: #D9ED92;
+    --moss-green: #76C893;
+    --duck-blue: #34A0A4;
+    --antwerp-blue: #1A759F;
+    --puprle-hue: #184E77;
+}
+
+
+body {
+    background-color: var(--duck-blue);
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+}
+
+
+body > nav {
+    background-color: var(--antwerp-blue);
+    color: whitesmoke;
+}
+
+
+body > nav > div > a {
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+
+body > nav > div > a:hover {
+    color: whitesmoke;
+}
+
+
+#navbarNavDropdown > ul > li > a {
+    color: whitesmoke;
+}
+
+
+.home-container {
+    display: flex;
+    min-width: 90%;
+}
+
+
+.locale-name a {
+    background-color: var(--puprle-hue);
+    padding: .1rem .2rem;
+    margin-bottom: .5rem;
+    color: whitesmoke;
+    border-radius: 2px;
+}
+
+
+.locale-name a:hover {
+    text-decoration: none;
+}
+
+
+body > div > div.right.col-md-3 > div {
+    display: flex;
+}
+
+
+body > div > div.middle.col-md-6 > div {
+    min-width: 100%;
+}
+
+
+body > div > div.middle.col-md-6 {
+    width: 100%;
+}
+
+
+.form-wrapper {
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    padding: 1rem .5rem;
+    background-color: var(--antwerp-blue);
+    color: whitesmoke;
+    border-radius: 5px;
+    text-align: center;
+
+    box-shadow: -6px 5px 9px -5px rgba(0,0,0,0.6);
+-webkit-box-shadow: -6px 5px 9px -5px rgba(0,0,0,0.6);
+-moz-box-shadow: -6px 5px 9px -5px rgba(0,0,0,0.6);
+}
+
+
+.login-page {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--antwerp-blue);
+    width: 500px;
+    margin: 5rem auto;
+    padding: 1rem .5rem;
+    text-align: center;
+    border-radius: 3px;
+
+    box-shadow: -6px 5px 9px -5px rgba(0,0,0,0.6);
+    -webkit-box-shadow: -6px 5px 9px -5px rgba(0,0,0,0.6);
+    -moz-box-shadow: -6px 5px 9px -5px rgba(0,0,0,0.6);
+}
+
+
+.login-page input {
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+
+
+.login-page a {
+    background-color: var(--duck-blue);
+    padding: .3rem .5rem;
+    border-radius: 15px;
+    width: 100px;
+    margin: 0 auto;
+    color: black;
+}
+
+
+.form-wrapper a {
+    background-color: var(--duck-blue);
+    padding: .3rem .5rem;
+    border-radius: 15px;
+    width: 100px;
+    margin: 0 auto;
+    color: black;
+}
+
+
+.login-btn {
+    background-color: var(--duck-blue);
+    padding: .3rem .5rem;
+    border-radius: 15px;
+    width: 100px;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+}
+
+
+.create-btn {
+    width: auto;
+    background-color: var(--duck-blue);
+    padding: .3rem .5rem;
+    border-radius: 15px;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+}
+
+
+.create-anchor {
+    width: auto;
+    background-color: var(--avocado-green);
+    padding: .3rem .5rem;
+    border-radius: 15px;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+}
+
+
+.hood {
+    min-width: 80%;
+    padding: .3rem 1rem;
+    border-radius: 5px;
+    background-color: var(--antwerp-blue);
+
+    box-shadow: -6px 5px 9px -5px rgba(0,0,0,0.6);
+-webkit-box-shadow: -6px 5px 9px -5px rgba(0,0,0,0.6);
+-moz-box-shadow: -6px 5px 9px -5px rgba(0,0,0,0.6);
+}
+
+
+.comment-wrapper {
+    background-color: var(--antwerp-blue);
+    padding: 3px 5px;
+    border-radius: 3px;
+}
+
+
+.comment-wrapper input {
+    background-color: #184e77cb;
+    border: 0;
+    outline: 0;
+    color: whitesmoke;
+}
+
+
+body > div > div.middle.col-md-6 > div > div > a {
+    color: whitesmoke;
+}
+
+
+body > div > div.middle.col-md-6 > div > div > h4 > a {
+    color: whitesmoke;
+}
+
+
+.user-profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border: 2px solid var(--avocado-green);
+}
+
+
+.occupant-profile {
+    display: flex;
+}
+
+
+.occupant-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 2px solid rgb(233, 98, 98);
+}
+
+
+.occupant-name {
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.left,
+.middle,
+.right {
+    padding-top: 2rem;
+}
+
+
+.post {
+    background-color: var(--puprle-hue);
+    padding: 5px;
+    width: 96%;
+    border-radius: 3px;
+}
+
+
+.post small {
+    font-weight: 600;
+}
+
+
+.post-activity {
+    width: 90%;
+    padding: .4rem .5rem;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: var(--antwerp-blue);
+
+    box-shadow: -6px 5px 9px -5px rgba(0,0,0,0.6);
+-webkit-box-shadow: -6px 5px 9px -5px rgba(0,0,0,0.6);
+-moz-box-shadow: -6px 5px 9px -5px rgba(0,0,0,0.6);
+}
+
+
+body > div > div.right.col-md-3 > div > div.user-profile {
+    margin-top: 5px;
+}
+
+
+.paragraph {
+    background-color: var(--puprle-hue);
+    padding: 2px 1px 1px 5px;
+    border-radius: 3px;
+}
+
+
+body > div > div.right.col-md-3 > div> div > small > a {
+    color: whitesmoke;
+}
+
+
+.bg-danger {
+    color: whitesmoke;
+}
+
+
+.profile-col {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--antwerp-blue);
+    border-radius: 5px;
+    margin-top: 5rem;
+}
+
+
+.profile-col a {
+    color: rgb(22, 22, 22);
+    background-color: var(--moss-green);
+    border-radius: 15px;
+    padding: 3px 5px;
+    border: 1px solid tomato;
+}
+
+
+.profile-col img {
+    width: 80px;
+    height: 80px;
+}
+
+
+.icon {
+    display: flex;
+}
+
+
+.info {
+    padding-left: .5rem;
+}
+
+
+.info-icons {
+    background-color: var(--antwerp-blue);
+    padding: .5rem 1rem;
+    width: auto;
+    border-radius: 5px;
+}
+
+
+.image img {
+    width: 20px;
+    height: 20px;
+}
+
+
+.hood-container {
+    padding-top: 2rem;
+}
+
+
+body > div > div > div > a {
+    margin: 1rem 0;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .col-md-3 {
+        width: auto;
+    }
+}
